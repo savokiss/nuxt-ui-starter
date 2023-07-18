@@ -7,7 +7,9 @@ export default defineNuxtConfig({
   modules: [
     ['@nuxthq/ui', {
       global: true
-    }]
+    }],
+    '@vueuse/nuxt',
+    '@nuxt/image'
   ],
   colorMode: {
     preference: 'light'

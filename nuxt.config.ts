@@ -8,8 +8,9 @@ export default defineNuxtConfig({
     ['@nuxthq/ui', {
       global: true
     }],
+    '@nuxt/image',
     '@vueuse/nuxt',
-    '@nuxt/image'
+    '@pinia/nuxt'
   ],
   colorMode: {
     preference: 'light'

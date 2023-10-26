@@ -5,7 +5,7 @@ const { resolve } = createResolver(import.meta.url)
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    ['@nuxthq/ui', {
+    ['@nuxt/ui', {
       global: true
     }],
     '@nuxt/image',
@@ -27,5 +27,8 @@ export default defineNuxtConfig({
       name: 'nuxt-session',
       password: ''
     }
+  },
+  experimental: { 
+    appManifest: false 
   }
 })

@@ -49,6 +49,9 @@ devDependencies:
   nuxt:
     specifier: ^3.8.0
     version: 3.8.0(@types/node@18.16.19)(eslint@8.42.0)(less@4.1.3)(typescript@5.1.6)(vite@4.5.0)
+  nuxt-gtag:
+    specifier: ^1.1.1
+    version: registry.npmjs.org/nuxt-gtag@1.1.1
   typescript:
     specifier: 5.1.6
     version: 5.1.6
@@ -4949,7 +4952,7 @@ packages:
     dependencies:
       clipboardy: 3.0.0
       colorette: 2.0.20
-      defu: 6.1.2
+      defu: registry.npmjs.org/defu@6.1.2
       get-port-please: 3.1.1
       http-shutdown: 1.2.2
       ip-regex: 5.0.0
@@ -8022,7 +8025,7 @@ packages:
       lodash.pick: 4.4.0
       npm-run-path: 4.0.1
       semver: registry.npmjs.org/semver@7.5.4
-      strip-ansi: 6.0.1
+      strip-ansi: registry.npmjs.org/strip-ansi@6.0.1
       tiny-invariant: 1.3.1
       typescript: 5.1.6
       vite: 4.5.0(@types/node@18.16.19)(less@4.1.3)
@@ -11770,13 +11773,13 @@ packages:
     dependencies:
       '@fastify/accept-negotiator': 1.1.0
       consola: 3.2.3
-      defu: 6.1.2
+      defu: registry.npmjs.org/defu@6.1.2
       destr: 1.2.2
       etag: 1.8.1
       image-meta: 0.1.1
       listhen: 1.0.4
       node-fetch-native: 1.2.0
-      pathe: 1.1.1
+      pathe: registry.npmjs.org/pathe@1.1.1
       sharp: 0.32.3
       ufo: 1.1.2
       xss: 1.0.14
@@ -12493,6 +12496,19 @@ packages:
       console-control-strings: registry.npmjs.org/console-control-strings@1.1.0
       gauge: registry.npmjs.org/gauge@3.0.2
       set-blocking: registry.npmjs.org/set-blocking@2.0.0
+    dev: true
+
+  registry.npmjs.org/nuxt-gtag@1.1.1:
+    resolution: {integrity: sha512-AkTK++e4vFHyoc04GcRx7dQvx9xchVLav/YAP3aM6oL/ZkZtW50M0/2re4zmPWjeu36ckbpcOHJrj+zptQIMyw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/nuxt-gtag/-/nuxt-gtag-1.1.1.tgz}
+    name: nuxt-gtag
+    version: 1.1.1
+    dependencies:
+      '@nuxt/kit': registry.npmjs.org/@nuxt/kit@3.8.0
+      defu: registry.npmjs.org/defu@6.1.2
+      pathe: registry.npmjs.org/pathe@1.1.1
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
     dev: true
 
   registry.npmjs.org/object-assign@4.1.1:

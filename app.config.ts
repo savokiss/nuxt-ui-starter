@@ -15,10 +15,7 @@ export default defineAppConfig({
       }
     },
     dropdown: {
-      width: 'w-full',
-      popper: {
-        strategy: 'absolute'
-      }
+      width: 'w-30'
     }
   }
 })

@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     ['@nuxt/ui', {
       global: true
     }],
+    '@nuxtjs/color-mode',
     '@nuxt/image',
     '@vueuse/nuxt',
     '@pinia/nuxt',

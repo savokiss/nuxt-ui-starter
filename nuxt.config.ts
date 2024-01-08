@@ -12,7 +12,6 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@vueuse/nuxt',
     '@pinia/nuxt',
-    '@nuxtjs/supabase',
     'nuxt-gtag'
   ],
   colorMode: {
@@ -34,12 +33,4 @@ export default defineNuxtConfig({
   experimental: { 
     appManifest: false 
   },
-  supabase: {
-    redirect: false,
-    redirectOptions: {
-      login: '/login',
-      callback: '/confirm',
-      exclude: ['/']
-    },
-  }
 })

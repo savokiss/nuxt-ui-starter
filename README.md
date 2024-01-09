@@ -21,3 +21,5 @@ Add these secrets to enable the action:
 - `DOCKER_PASSWORD` - Your docker access token
 - `DOCKER_IMAGE` - Your docker image name, like this: `username/your-repo`
 
+## License
+MIT

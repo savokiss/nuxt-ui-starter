@@ -1,7 +1,7 @@
 <template>
   <div class="AppFooter text-center py-8">
     <h2 class="text-center text-sm text-gray-400">
-      Copyright © 2023
+      Copyright © 2024
     </h2>
   </div>
 </template>

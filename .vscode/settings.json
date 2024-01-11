@@ -12,5 +12,5 @@
     "ui"
   ],
   "typescript.tsdk": "node_modules/typescript/lib",
-  "editor.inlineSuggest.showToolbar": "always"
+  "editor.inlineSuggest.showToolbar": "onHover"
 }
